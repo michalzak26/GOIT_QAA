@@ -1,0 +1,40 @@
+Plik JSON zawiera następujące dane:
+
+json
+{
+  "name": "Josh",
+  "weight": 175,
+  "age": 30,
+  "eyecolor": "brown",
+  "isHappy": true,
+  "cars": ["Chevy", "Honda"],
+  "favoriteBook": {
+    "title": "The Last Kingdom", 
+    "author": "Bernard Cornwell", 
+    "rating": 8.38
+  }
+}
+
+Pary klucz-wartość:
+"name": "Josh"
+Typ wartości: string (ciąg znaków)
+"weight": 175
+Typ wartości: number (liczba)
+"age": 30
+Typ wartości: number (liczba)
+"eyecolor": "brown"
+Typ wartości: string (ciąg znaków)
+"isHappy": true
+Typ wartości: boolean (wartość logiczna)
+"cars": ["Chevy", "Honda"]
+Typ wartości: array (tablica ciągów znaków)
+"favoriteBook": { "title": "The Last Kingdom", "author": "Bernard Cornwell", "rating": 8.38 }
+Typ wartości: object (obiekt z trzema kluczami o wartościach: string, string i number)
+
+Wyjaśnienie struktury JSON:
+JSON to format danych zbudowany z par klucz-wartość. Klucze są ciągami znaków (string), natomiast wartości mogą przyjmować różne typy: 
+string, number, boolean, tablica, lub inny obiekt.
+W powyższym pliku JSON mamy:
+Proste właściwości jak "name", "weight", "age", "eyecolor", "isHappy", gdzie każda z tych wartości jest albo stringiem, liczbą, albo wartością logiczną.
+Właściwość "cars", która jest tablicą (array) zawierającą dwa elementy typu string: "Chevy" i "Honda".
+Właściwość "favoriteBook", która jest zagnieżdżonym obiektem. Ten obiekt zawiera kolejne pary klucz-wartość: "title" (string), "author" (string), i "rating" (number).
