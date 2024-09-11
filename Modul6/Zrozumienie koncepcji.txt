@@ -1,0 +1,6 @@
+Zrozumienie koncepcji
+
+Słowo kluczowe this w JavaScript odnosi się do bieżącego kontekstu wykonania kodu, czyli do obiektu, 
+w którym znajduje się dana metoda lub funkcja. W programowaniu obiektowym this jest używane do odwoływania się do bieżącego obiektu, 
+w którym dana metoda jest wywoływana. Znaczenie this może się zmieniać w zależności od tego, w jaki sposób funkcja jest wywoływana, 
+co czyni jego użycie elastycznym, ale czasami trudnym do zrozumienia.
